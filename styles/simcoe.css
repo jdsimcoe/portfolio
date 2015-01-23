@@ -1,0 +1,248 @@
+/* GLOBAL styles 		*/
+* {
+	text-shadow: 0px 1px 1px #fff;
+}
+
+body {
+	background: #fff url('../images/ampersand.jpg') 120px 215px no-repeat;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+
+p {
+	margin: 0 0 15px 0;
+	font-family: HelveticaNeue-Light, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+a {
+	text-decoration: none;
+	
+}
+
+.right {
+	text-align: right;
+}
+
+/* TYPOGRAPHY styles	*/
+
+.italics {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: italic;
+}
+
+.quotes {
+	font-family: Baskerville, "Goudy Bookletter 1911", "Goudy Old Style", Palatino, "Book Antiqua", Georgia, serif;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 26px;
+}
+
+.dot {
+	color: #ccc;
+	font-family: Georgia, Times, serif;
+	margin: 0px 0px 0px 5px;
+	text-shadow: 0px 1px 1px #222;
+}
+
+.plus {
+	color: #009C56;
+	font-weight: bold;
+	font-size: 20px;
+	position: relative;
+	top: -2px;
+	text-shadow: 0px 1px 1px #004224;
+}
+
+.title {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 30px 0px;
+	padding: 10px;
+	cursor: hand;
+	cursor: pointer;
+}
+
+/*.title:hover {
+	background: #BEC2CC/*#D0D4E0*/;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+	box-shadow: 2px 2px 2px #777;
+	-webkit-box-shadow: 2px 2px 2px #777;
+	-moz-box-shadow: 2px 2px 2px #777;
+}*/
+
+#amped {
+	color: #365D80;
+	font-family: Baskerville, "Goudy Bookletter 1911", "Goudy Old Style", Palatino, "Book Antiqua", Georgia, serif;
+	font-style: italic;
+	font-size: 600px;
+	letter-spacing: -20px;
+	opacity: 0.1;
+	filter: alpha(opacity=10);
+	-moz-opacity: 0.1;
+	overflow: hidden;
+	position: fixed;
+	top: -25px;
+	left: 10px;
+	width: 1000px;
+	margin: 0 auto;
+	height: 100%;
+	z-index: -1;
+	text-shadow: 0px 1px 1px #000;
+}
+
+/* CONTAINER styles 	*/
+
+#container {
+	display: block;
+	width: 980px;
+	margin: 0 auto;
+}
+
+/* HEADER styles 		*/
+
+#header {
+	border-bottom: 3px solid #222;
+	display: block;
+	height: 140px;
+}
+
+#header img {
+	float: right;
+	padding-top: 60px;
+}
+
+#logotype {
+	background: #ababab;
+	border:  4px solid #2b2b2b;
+	box-shadow: 2px 2px 2px #777;
+	-webkit-box-shadow: 2px 2px 2px #777;
+	-moz-box-shadow: 2px 2px 2px #777;
+	border-top: none;
+	color: #0A111B;
+	display: inline;
+	float: left;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 35px;
+	padding: 50px 10px 10px 10px;
+	text-align: center;
+	text-shadow: 0px 1px 1px #ccc;
+	width: 180px;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+}
+
+#tagline {
+	color: #222;
+	display: inline;
+	float: right;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 35px;
+	padding: 110px 10px 10px 15px;
+	text-align: right;
+	text-shadow: 0px 1px 1px #fff;
+	width: 740px;	
+}
+
+#nametag {
+	color: #365D80;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	text-shadow: 0px 1px 1px #000;
+}
+
+/* CONTENT styles		*/
+
+#content {
+	clear: both;
+	display: block;
+	margin-bottom: 20px;
+	padding: 10px 10px 10px 10px;
+}
+
+div.accordion h2 {
+	z-index: 1;
+}
+
+div.accordion h2 div p {
+	margin: 0 0 15px 70px;
+}
+
+div.column {
+	display: inline-table;
+	width: 280px;
+	padding: 10px;
+}
+
+div.column h3 {
+	border-bottom: 1px solid #222;
+	padding: 0px 13px 10px 0px;
+	text-align: right;
+}
+
+div.column h3 p {
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+#portfolio {
+	margin-left: 40px;
+}
+
+.gallery {
+	padding: 10px 0 0 7px;
+	text-align: left;
+}
+
+.gallery a {
+	padding: 0px 5px;
+}
+
+.gallery a img {
+	border: 5px solid #222;
+	box-shadow: 2px 2px 2px #777;
+	-webkit-box-shadow: 2px 2px 2px #777;
+	-moz-box-shadow: 2px 2px 2px #777;
+}
+
+.bubbleInfo {
+    position: relative;
+}
+
+.popup {
+  position: absolute;
+  display: none;
+  background: #eee;
+  border: 3px solid #777;
+  padding: 10px;
+  color: #222;
+	font-size: 12px;
+	box-shadow: 2px 2px 2px #555;
+	-webkit-box-shadow: 2px 2px 2px #555;
+	-moz-box-shadow: 2px 2px 2px #555;
+	width: auto;
+}
+.bquote {
+	padding-left: 30px;
+	border-left: 4px solid #ddd;
+	margin-left: 60px;
+}
+
+/* FOOTER styles 		*/
+
+#footer {
+	border-top: 3px solid #222;
+	clear: both;
+	color: #777;
+	display: block;
+	padding: 30px 0;
+	text-align: center;
+	text-shadow: 0px 1px 1px #fff;
+	width: 980px;
+}
